@@ -1,0 +1,111 @@
+/*aqui comienza la adptacion a tablet de la pagina de inicio*/
+@media screen and (min-width: 760px) and (max-width: 1068px){
+  
+    main{
+        border: 1px solid black;
+    
+        background-color:#D6CBC1 ;
+        .seccion1_index_baste{
+        
+        text-align: center;
+        h1{
+           font-size: 50px;
+           padding: 3%;
+        }
+        .img_referencia_papelera{
+    height: 80%;
+    width: 80%;
+        }
+    }
+    
+    .seccion2_index_baste{
+           background-color: #D6A99A;
+           text-align: center;
+           margin:5%;
+           border: 1px solid black;
+        h2{
+          font-size: 50px ;
+        }
+        p{
+            padding: 10px;
+          font-size: 20px;
+        }
+    
+    
+    }
+    
+    .aside1_index_baste{
+        text-align: center;
+        margin: 2%;
+        .divisor1baste{
+            background-color: #e89275;
+            border: 1px solid black;
+            margin-left: 25%;
+            margin-right: 25%;
+            .h1_index_baste{
+                padding: 3%;
+            font-size: 50px;
+        }
+        }
+    
+        .seccion3_prodest_baste{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .div_prodest_baste{
+                height: 450px;
+                width: 200px;
+                background-color: #E16036;
+                border: 1px solid black;
+                margin-top: 10px;
+                margin-left: 7px;
+                margin-right: 7px;
+                
+                .img_prodest_baste{
+                    
+                    height: 250px;
+                    width: 200px;
+                }
+    
+            }
+    
+        }
+    
+        
+    }
+    
+    }
+    /*aqui comienza el footerde index*/
+    footer{
+        background-color: #e89275;
+            display: flex;
+            flex-direction: row;
+            
+        .div_footer_baste1{
+            margin-left: 50px;
+            margin-right: 390px;
+            .h2_footer_baste{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                font-size: 25px;
+            }
+            .parraf_footer{
+             
+             padding: 0;
+             margin: 0;
+             font-size: 15px;
+            }
+            
+            }
+           
+       .div_footer_baste2{
+          
+            margin-top: 2%;
+            font-size: 15px;
+            margin-top: 32px;
+    
+            
+        }
+      }
+    
+}
