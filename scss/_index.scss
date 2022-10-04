@@ -64,8 +64,9 @@ main{
     .seccion3_prodest_baste{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         text-align: center;
+            justify-content: center;
+        
         .div_prodest_baste{
        
             height: 350px;
@@ -75,7 +76,6 @@ main{
             margin-top: 10px;
             margin-left: 7%;
            
-            
             .img_prodest_baste{
                 
                 height: 250px;
@@ -89,6 +89,10 @@ main{
     
  }
 
+}
+.divisorpro{
+    text-align: center;
+    justify-content: center;
 }
 
 footer{
@@ -122,6 +126,226 @@ footer{
 
         
     }
+
+
+
   }
  
+/*ENTREGAS*/
+.tituloentregas{
+    
+    text-align: center;
+    background-color: #e89275;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    padding: 10px;
+
+     .h1entregas{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+     }
+}
+
+.parrafoentregas1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.divmap{
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+    .mapama{
+        width: 300px;
+        height: 225px;
+    }
+   
+}
+
+.botonform{
+   height: 50px;
+   width: 150px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    background-color: #E16036;
+    
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+}
+
+/*CONTACTANOS*/
+.divisorcontact{
+
+        text-align: center;
+        background-color: #e89275;
+        border: solid 1px black;
+        margin: 30px;
+        padding: 20px;
+        padding-bottom: 0px;
+
+         .h1contact{
+            font-size: 30px;
+
+         }
+
+         .parrafocontact{
+            font-size: 17px;
+         }
+}
+
+
+.divformulario{
+    background-color: rgba(16, 0, 0, 0.534);
+    margin: 20px;
+    
+
+    form{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        
+        label{
+            margin-top: 10px;
+        }
+
+        .inputbaste{
+            width: 200px;
+        }
+        #botonenviar{
+            background-color: #E16036;
+            padding: 5px;
+        }
+    }
+}
+
+.divisorcontact2{
+
+    text-align: center;
+    background-color: #ecab96;
+    border: solid 1px black;
+    margin: 30px;
+    padding: 20px;
+    padding-bottom: 0px;
+
+     
+
+     .parrafocontact{
+        font-size: 17px;
+     }
+}
+
+
+/*PRODUCTOS*/
+.container_grid_productos{
+    display: grid;
+    
+    grid-template-columns: 30% 70%;
+}
+
+.div_header_grid{
+    background-color: #ecab96;
+}
+
+
+.divtituloproduct{
+    background-color: #E16036;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid black;
+
+    .h1product{
+        font-size: 25px;
+    
+    }
+}
+
+.h2arranque{
+    border: 1px solid black;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.box_articulo{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom:40px;
+    background-color: #86807a;
+
+    .imagenpro1{
+        width:200px;
+        height:200px;
+        background-color: #86807a;
+    }
+    .divtextprod{
+        background-color: #E16036;
+        border: 1px solid black;
+        .h3product{
+            font-size: 17px;
+            padding-top: 7px;
+        }
+    }
+}
+
+.seccion_arranque{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nav_independiente{
+    margin: 0px;
+    padding: 0px;
+    
+
+    
+    .ulindbaste{
+       margin-left: 5px;
+       margin-right: 5px;
+       padding: 0px;
+       margin-top: 50px;
+       
+        .liindbaste{
+            
+            list-style: none;
+            border: 1px solid black;
+            margin-bottom:20px;
+            margin-top: 15px;
+            background-color: #E16036;
+            
+            .aindbaste{
+                
+                
+           text-decoration: none;
+           color: black;
+           font-size: 15px;
+           margin-left: 5px;
+           
+
+            }
+        }
+      
+    }
+ 
+
+
+}
+
+
+
 

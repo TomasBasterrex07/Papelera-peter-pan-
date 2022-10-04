@@ -107,5 +107,120 @@
             
         }
       }
+      
+      
+      /*ENTREGAS*/
+.tituloentregas{
+    
+    text-align: center;
+    background-color: #e89275;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+    padding: 10px;
+
+     .h1entregas{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 40px;
+     }
+}
+
+.parrafoentregas1{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 30px;
+}
+
+.divmap{
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+  .mapama{
+    width: 600px; 
+    height: 425px;
+  }
+   
+}
+
+.botonform{
+   height: 50px;
+   width: 150px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    background-color: #E16036;
+    
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+}
+
+
+/*PRODUCTOS*/
+.divtituloproduct{
+    
+    margin: 20px;
+    margin-left: 100PX;
+    margin-right: 100PX;
+    
+
+    .h1product{
+        font-size: 30px;
+        padding: 20px;
+    
+    }
+}
+
+.h2arranque{
+   
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 5px;
     
 }
+
+
+
+.box_articulo{
+    
+    margin-left: 55px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom:40px;
+    
+
+    .imagenpro1{
+        width:200px;
+        height:200px;
+        background-color: #86807a;
+    }
+    .divtextprod{
+        background-color: #E16036;
+        border: 1px solid black;
+        .h3product{
+            font-size: 17px;
+            padding-top: 7px;
+        }
+    }
+}
+
+.divisorcada2{
+   
+    display: flex;
+    flex-direction: initial;
+    
+    
+}
+
+
+}
+    
+
+
