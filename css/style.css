@@ -47,15 +47,13 @@ main {
     main .aside1_index_baste .seccion3_prodest_baste {
       display: flex;
       flex-direction: column;
-      text-align: center;
-      justify-content: center; }
+      align-items: center; }
       main .aside1_index_baste .seccion3_prodest_baste .div_prodest_baste {
-        height: 350px;
+        height: 380px;
         width: 300px;
         background-color: #E16036;
         border: 1px solid black;
-        margin-top: 10px;
-        margin-left: 7%; }
+        margin-top: 10px; }
         main .aside1_index_baste .seccion3_prodest_baste .div_prodest_baste .img_prodest_baste {
           height: 250px;
           width: 200px; }
@@ -228,6 +226,51 @@ footer {
         color: black;
         font-size: 15px;
         margin-left: 5px; }
+
+/*footer*/
+footer {
+  background-color: #e89275;
+  display: flex;
+  flex-direction: row; }
+  footer .div_footer_baste1 {
+    border-right: 1px solid black;
+    padding-right: 10px;
+    margin-left: 25px;
+    margin-right: 20px; }
+    footer .div_footer_baste1 .h2_footer_baste {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-size: 20px; }
+    footer .div_footer_baste1 .parraf_footer {
+      padding: 0;
+      margin: 0;
+      padding-top: 4px;
+      font-size: 10px; }
+  footer .div_footer_baste2 {
+    font-size: 10px;
+    margin-top: 32px; }
+
+.divfot1img {
+  display: flex;
+  flex-direction: row; }
+
+.imgtelefono {
+  width: 20px;
+  height: 20px;
+  padding-bottom: 2px;
+  margin-right: 5px; }
+
+.imglocalizacion {
+  width: 25px;
+  height: 20px;
+  margin-bottom: 6px; }
+
+.imgemail {
+  width: 20px;
+  height: 20px; }
+
+.pemail {
+  margin-top: 3px; }
 
 /*aqui comienza la adaptacion para escritorio*/
 @media screen and (min-width: 1068px) {
@@ -415,7 +458,47 @@ footer {
           text-decoration: none;
           color: black;
           font-size: 25px;
-          margin-left: 5px; } }
+          margin-left: 5px; }
+  /*FOOTER*/
+  footer {
+    background-color: #e89275;
+    display: flex;
+    flex-direction: row; }
+    footer .div_footer_baste1 {
+      margin-left: 50px;
+      margin-right: 400px; }
+      footer .div_footer_baste1 .h2_footer_baste {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 30px;
+        margin-right: 178px; }
+      footer .div_footer_baste1 .parraf_footer {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        margin-bottom: 10px; }
+    footer .div_footer_baste2 {
+      margin-top: 2%;
+      font-size: 20px;
+      margin-top: 32px; }
+  .divfot1img {
+    display: flex;
+    flex-direction: row; }
+  .imgtelefono {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 5px; }
+  .imglocalizacion {
+    width: 25px;
+    height: 20px;
+    margin-bottom: 6px; }
+  .imgemail {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px; }
+  .pemail {
+    margin-top: 3px; } }
 
 /*aqui comienza la adptacion a tablet de la pagina de inicio*/
 @media screen and (min-width: 760px) and (max-width: 1068px) {
@@ -467,25 +550,6 @@ footer {
             height: 250px;
             width: 200px; }
   /*aqui comienza el footerde index*/
-  footer {
-    background-color: #e89275;
-    display: flex;
-    flex-direction: row; }
-    footer .div_footer_baste1 {
-      margin-left: 50px;
-      margin-right: 390px; }
-      footer .div_footer_baste1 .h2_footer_baste {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        font-size: 25px; }
-      footer .div_footer_baste1 .parraf_footer {
-        padding: 0;
-        margin: 0;
-        font-size: 15px; }
-    footer .div_footer_baste2 {
-      margin-top: 2%;
-      font-size: 15px;
-      margin-top: 32px; }
   /*ENTREGAS*/
   .tituloentregas {
     text-align: center;
@@ -552,4 +616,43 @@ footer {
         padding-top: 7px; }
   .divisorcada2 {
     display: flex;
-    flex-direction: initial; } }
+    flex-direction: initial; }
+  /*footer*/
+  footer {
+    background-color: #e89275;
+    display: flex;
+    flex-direction: row; }
+    footer .div_footer_baste1 {
+      border-right: 1px solid black;
+      padding-right: 200px;
+      margin-left: 25px;
+      margin-right: 230px; }
+      footer .div_footer_baste1 .h2_footer_baste {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px; }
+      footer .div_footer_baste1 .parraf_footer {
+        padding: 0;
+        margin: 0;
+        padding-top: 4px;
+        font-size: 10px; }
+    footer .div_footer_baste2 {
+      font-size: 10px;
+      margin-top: 32px; }
+  .divfot1img {
+    display: flex;
+    flex-direction: row; }
+  .imgtelefono {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 2px;
+    margin-right: 5px; }
+  .imglocalizacion {
+    width: 25px;
+    height: 20px;
+    margin-bottom: 6px; }
+  .imgemail {
+    width: 20px;
+    height: 20px; }
+  .pemail {
+    margin-top: 3px; } }

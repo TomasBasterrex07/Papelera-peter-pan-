@@ -76,37 +76,7 @@
     
     }
     /*aqui comienza el footerde index*/
-    footer{
-        background-color: #e89275;
-            display: flex;
-            flex-direction: row;
-            
-        .div_footer_baste1{
-            margin-left: 50px;
-            margin-right: 390px;
-            .h2_footer_baste{
-                margin-top: 5px;
-                margin-bottom: 5px;
-                font-size: 25px;
-            }
-            .parraf_footer{
-             
-             padding: 0;
-             margin: 0;
-             font-size: 15px;
-            }
-            
-            }
-           
-       .div_footer_baste2{
-          
-            margin-top: 2%;
-            font-size: 15px;
-            margin-top: 32px;
     
-            
-        }
-      }
       
       
       /*ENTREGAS*/
@@ -218,6 +188,81 @@
     
     
 }
+
+
+/*footer*/
+
+footer{
+    background-color: #e89275;
+        display: flex;
+        flex-direction: row;
+        
+    .div_footer_baste1{
+        border-right: 1px solid black;
+        padding-right: 200px;
+        margin-left: 25px;
+            margin-right: 230px;
+        .h2_footer_baste{
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+        .parraf_footer{
+         
+         padding: 0;
+         margin: 0;
+         padding-top: 4px;
+         font-size: 10px;
+        }
+        
+        }
+       
+   .div_footer_baste2{
+       
+        
+        font-size: 10px;
+        margin-top: 32px;
+
+        
+    }
+
+
+
+  }
+
+
+
+.divfot1img{
+   
+    display: flex;
+    flex-direction: row;
+}
+
+.imgtelefono{
+  width: 20px;
+  height: 20px;
+  padding-bottom: 2px;
+  margin-right: 5px;
+}
+
+.imglocalizacion{
+    width: 25px;
+    height: 20px;
+    margin-bottom: 6px;
+
+
+}
+.imgemail{
+    width: 20px;
+    height: 20px;
+    
+    
+
+}
+.pemail{
+    margin-top: 3px;
+}
+
 
 
 }

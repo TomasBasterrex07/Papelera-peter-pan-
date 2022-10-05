@@ -46,7 +46,7 @@
             <form action="">
                 
                     <label for="nombre">Nombre de empresa/Nombre personal</label>
-                    <input class="inputbaste" type="text" name="nombre" id="" placeholder="Nombre" required>
+                    <input class="inputbaste" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
                  
 
                   
@@ -67,7 +67,7 @@
 
                   <fieldset>
                     <legend>Mensaje</legend>
-                    <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <textarea name="Mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
                   </fieldset>
 
                   <div>
@@ -90,20 +90,36 @@
 
     </main>
     <footer>
-        <div>
-            <h2>Lineas telefonicas</h2>
-            <p>011-4089-9448/9484</p>
-            <p>0220-499 2315</p>
+      <div class="div_footer_baste1">
+          <h2 class="h2_footer_baste">Lineas telefonicas</h2>
+          <div class="divfot1img">
+          
+                <img class="imgtelefono" src="./imagenes/imagentelefono.png" alt="imagentelefono">
+                <p class="parraf_footer">011-4089-9448/9484</p>
+          </div>
 
-        </div>
-        <div>
-            <p>ejemplo@gmail.com</p>
-            <p>Buenos Aires</p>
-            <p>Mariano Acosta</p>
+          <div class="divfot1img">
+            <img class="imglocalizacion" src="./imagenes/imagenlocalizacion.png" alt="imagenlocalizcion">
+            <p class="parraf_footer">Buenos Aires Mariano Acosta</p>
+          </div>
+          
+          
 
-        </div>
-    </footer>
+      </div>
+      <div class="div_footer_baste2">
+
+          <div class="divfot1img">
+              <img class="imgemail" src="./imagenes/imagenmail.png" alt="imagenemail">
+               <p class="pemail">papelerapeterpan@gmail.com</p>
+          </div>
+          
+         
+
+      </div>
+      
+  </footer>
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="js/form.js"></script>
 </body>
 </html>

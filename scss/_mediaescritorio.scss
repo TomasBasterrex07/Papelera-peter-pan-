@@ -320,6 +320,75 @@
 }
 
 
+    /*FOOTER*/
+    footer{
+        background-color: #e89275;
+            display: flex;
+            flex-direction: row;
+            
+        .div_footer_baste1{
+            margin-left: 50px;
+            margin-right: 400px;
+            .h2_footer_baste{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                font-size: 30px;
+                margin-right: 178px;
+            }
+            .parraf_footer{
+             
+             padding: 0;
+             margin: 0;
+             font-size: 20px;
+             margin-bottom: 10px;
+            
+            }
+            
+            }
+           
+       .div_footer_baste2{
+          
+            margin-top: 2%;
+            font-size: 20px;
+            margin-top: 32px;
+    
+            
+        }
+      }
+
+      .divfot1img{
+   
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .imgtelefono{
+      width: 20px;
+      height: 20px;
+      margin-top: 5px;
+     
+      margin-right: 5px;
+    }
+    
+    .imglocalizacion{
+        width: 25px;
+        height: 20px;
+        margin-bottom: 6px;
+    
+    
+    }
+    .imgemail{
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        
+        
+    
+    }
+    .pemail{
+        margin-top: 3px;
+    }
+
 
 }
 
